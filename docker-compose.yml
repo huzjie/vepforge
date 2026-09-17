@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  vepforge:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - LLM_PROVIDER=mock
+      - LLM_BASE_URL=http://localhost:8001
+      - LLM_MODEL=atria-dawn-preview-fp8

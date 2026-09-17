@@ -1,0 +1,5 @@
+[
+  {"id": "bfcl-1", "goal": "call the correct tool for the query", "criteria": ["tool called"]},
+  {"id": "bfcl-2", "goal": "chain two tools in correct order", "criteria": ["order correct"]},
+  {"id": "bfcl-3", "goal": "choose between two tools with overlapping functions", "criteria": ["correct tool"]}
+]

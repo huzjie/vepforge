@@ -1,0 +1,6 @@
+# 讯飞星火语音基座 Spark-Audio-1.0-Preview
+name: spark-audio-1-0-preview
+organization: iFlytek
+license: open-weights
+architecture: speech-foundation
+notes: "Trained on fully domestic compute stack"

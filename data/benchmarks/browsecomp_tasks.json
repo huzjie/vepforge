@@ -1,0 +1,6 @@
+[
+  {"id": "browse-1", "goal": "search and cite the source of a fact", "criteria": ["evidence linked"]},
+  {"id": "browse-2", "goal": "compare two pages and summarize", "criteria": ["summary produced"]},
+  {"id": "browse-3", "goal": "extract product specs from a listing", "criteria": ["specs extracted"]},
+  {"id": "browse-4", "goal": "verify a citation resolves correctly", "criteria": ["resolved", "verified"]}
+]

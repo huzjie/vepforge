@@ -1,0 +1,7 @@
+# vivo 蓝心 30B MoE — 手机端侧预研模型
+name: bluecode-30b-moe
+organization: vivo
+license: proprietary
+architecture: mixture-of-experts
+total_parameters: "30B"
+notes: "On-device agent preview (BlueCode)"

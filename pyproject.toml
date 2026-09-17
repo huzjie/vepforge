@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vepforge"
+version = "0.1.0"
+description = "Verifiable Experience Pipeline - long-horizon autonomous agent platform"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "pydantic>=2.6",
+    "PyYAML>=6.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["vepforge*"]
+
+[project.scripts]
+vepforge = "vepforge.cli.main:main"

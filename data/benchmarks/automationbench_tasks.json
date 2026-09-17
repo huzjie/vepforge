@@ -1,0 +1,7 @@
+[
+  {"id": "auto-1", "goal": "aggregate three CSV files and write a summary", "criteria": ["summary file produced", "exit code 0"]},
+  {"id": "auto-2", "goal": "run a batch job and verify outputs", "criteria": ["job finished", "evidence verified"]},
+  {"id": "auto-3", "goal": "fetch a page and extract key facts", "criteria": ["http 200", "facts extracted"]},
+  {"id": "auto-4", "goal": "normalize a dataset and export to parquet", "criteria": ["output produced", "schema valid"]},
+  {"id": "auto-5", "goal": "schedule and run a nightly report", "criteria": ["report generated", "no errors"]}
+]

@@ -1,0 +1,6 @@
+# Gemini 3.8 Live — 端到端语音模型（可选后端）
+name: gemini-3-8-live
+organization: Google DeepMind
+license: proprietary
+architecture: speech-to-speech
+notes: "Speech-to-Speech index 82.6; 97-language seamless switch"

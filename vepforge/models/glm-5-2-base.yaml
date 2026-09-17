@@ -1,0 +1,7 @@
+# GLM-5.2 base — Atria Dawn 的底座
+name: glm-5-2-base
+organization: Z.ai
+license: open-weights
+architecture: mixture-of-experts
+context_length: 256000
+role: "base foundation model; post-trained by Shanghai AI Lab into Atria Dawn"

@@ -1,0 +1,5 @@
+[
+  {"id": "cyber-1", "goal": "run code in sandbox and verify exit code", "criteria": ["exit code 0"]},
+  {"id": "cyber-2", "goal": "recover from a failing step", "criteria": ["recovered"]},
+  {"id": "cyber-3", "goal": "execute a multi-command workflow", "criteria": ["workflow completed"]}
+]

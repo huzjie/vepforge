@@ -1,0 +1,8 @@
+# Qwen3.8-27B — 消费级本地部署可选后端
+name: qwen3-8-27b
+organization: Alibaba
+license: Apache-2.0
+architecture: dense
+total_parameters: "27B"
+context_length: 1000000
+notes: "Dense 27B, consumer-GPU friendly local agent backend"

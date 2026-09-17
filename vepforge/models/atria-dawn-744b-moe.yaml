@@ -1,0 +1,10 @@
+# Atria Dawn Preview — 完整精度权重
+name: atria-dawn-744b-moe
+organization: Shanghai AI Laboratory
+license: MIT
+architecture: mixture-of-experts
+base_model: GLM-5.2
+total_parameters: "744B"
+context_length: 256000
+checkpoints: [full-precision, fp8]
+api: https://atria-asi.com

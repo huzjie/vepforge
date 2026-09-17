@@ -1,0 +1,22 @@
+# Atria Dawn Preview — 744B MoE agentic 基础模型
+name: atria-dawn-preview-744b
+organization: Shanghai AI Laboratory
+license: MIT
+architecture: mixture-of-experts
+base_model: GLM-5.2
+total_parameters: "744B"
+context_length: 256000
+quantization: [fp8, bf16]
+capabilities:
+  - long-horizon agentic execution
+  - tool calling
+  - multi-step reasoning
+  - failure recovery
+  - verifiable experience pipeline
+benchmarks:
+  AutomationBench: 53.8
+  BrowseComp: 92.5
+  DeepSearchQA: 96.0
+  CyberGym: 86.5
+  BFCL_v4: 77.0
+api_compatibility: [openai-chat-completions, anthropic-messages]

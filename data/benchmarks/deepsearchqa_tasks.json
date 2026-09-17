@@ -1,0 +1,5 @@
+[
+  {"id": "dsq-1", "goal": "answer a multi-hop question with evidence", "criteria": ["answer produced", "evidence cited"]},
+  {"id": "dsq-2", "goal": "verify a claim against retrieved sources", "criteria": ["verdict produced"]},
+  {"id": "dsq-3", "goal": "synthesize findings from three sources", "criteria": ["synthesis produced"]}
+]

@@ -1,0 +1,12 @@
+# Atria Dawn Preview FP8 — 量化部署版
+name: atria-dawn-preview-fp8
+organization: Shanghai AI Laboratory
+license: MIT
+architecture: mixture-of-experts
+base_model: GLM-5.2
+total_parameters: "744B"
+active_parameters: ~30B per token
+quantization: fp8
+context_length: 256000
+hardware_requirement: "multi-GPU (8x80GB) or enterprise node"
+notes: "FP8 checkpoint lowers the hardware bar for self-hosting"

@@ -1,0 +1,8 @@
+# Atria Dawn — 可验证经验流水线变体
+name: atria-dawn-verifiable
+organization: Shanghai AI Laboratory
+license: MIT
+architecture: mixture-of-experts
+training: Verifiable Experience Pipeline (VEP)
+grounding: real executable environments
+notes: "Grounds tool use in real executable environments, not static text"
